@@ -1,50 +1,13 @@
-SKILLIBLY API DOCUMENTATION
-
-**Table of Contents**
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Setup Environment Variables](#setup-environment-variables)
-- [How to start new task:](#how-to-start-new-task)
-  - [IMPORTANT: Before commiting anything, make sure `husky` is working properly. Do this before commit.](#important-before-commiting-anything-make-sure-husky-is-working-properly-do-this-before-commit)
-- [Auth routes:](#auth-routes)
+AUTHENTICAITON BOILERPLATE
 
 
-## Getting Started
-### Prerequisites
-Before you start integrating the SKILLIBLY API into your project, make sure you have the following prerequisites in place:
-* Node.js v10.15.3 or higher
-* MongoDB v4.0.10 or higher
-* NPM v6.4.1 or higher
-* Git v2.17.1 or higher
-* Postman v7.1.1 or higher
-* VS Code v1.33.1 or higher
-
-### Installation
-To start using the SKILLIBLY API in your Express.js application, follow these steps:
-
-
-1. **Clone the Repository:**
-Clone the SKILLIBLY API repository from GitHub using the following command:
-
-    ```bash
-    git clone https://github.com/Solvrz-com/skillibly-api.git
-    ```
-
-2. **Navigate to the Project Directory:**
-Move to the cloned project directory:
-
-    ```bash
-    cd skillibly-api
-    ```
-
-3. **Install Dependencies:**
+1. **Install Dependencies:**
 Install the required Node.js packages using npm:
     
     ```bash
     npm install
     ```
-4. **Start the Server:**
+1. **Start the Server:**
     ```bash
     npm start
     ```
